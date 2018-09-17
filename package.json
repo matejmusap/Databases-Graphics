@@ -1,0 +1,8 @@
+{
+  "name": "visual-databasess",
+  "version": "1.0",
+  "description": "Simple d3 charts and pies",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
