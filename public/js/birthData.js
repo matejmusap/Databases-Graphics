@@ -1,8 +1,8 @@
 var minYear = birthData[0].year;
 var maxYear = birthData[birthData.length - 1].year;
-var width = 600;
-var height = 600;
-var barPadding = 10;
+var width = 400;
+var height = 400;
+var barPadding = 8;
 var numBars = 12;
 var barWidth = width / numBars - barPadding;
 
