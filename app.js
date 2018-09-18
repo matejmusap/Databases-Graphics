@@ -20,6 +20,10 @@ app.get("/birthData", function(req, res){
     res.sendFile(__dirname + "/views/birthData.html");
 });
 
+app.get("/birthData2", function(req, res){
+    res.sendFile(__dirname + "/views/birthData2.html");
+});
+
 app.listen(port, function() {
     console.log("Server has started at " + port);
 });
