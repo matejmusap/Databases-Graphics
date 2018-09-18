@@ -1,7 +1,7 @@
-var width = 400;
-var height = 400;
+var width = 600;
+var height = 600;
 var barPadding = 1;
-var padding = 16;
+var padding = 20;
 var minYear = d3.min(birthData, d => d.year);
 var maxYear = d3.max(birthData, d => d.year);
 var yearData = birthData.filter(d => d.year === minYear);
