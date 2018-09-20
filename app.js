@@ -24,6 +24,10 @@ app.get("/birthData2", function(req, res){
     res.sendFile(__dirname + "/views/birthData2.html");
 });
 
+app.get("/regionData", function(req, res){
+    res.sendFile(__dirname + "/views/regionData.html");
+});
+
 app.listen(port, function() {
     console.log("Server has started at " + port);
 });
