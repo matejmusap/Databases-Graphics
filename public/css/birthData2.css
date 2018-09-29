@@ -1,4 +1,4 @@
-svg {
-    margin: 0 auto;
-    display: block;
-  }
+svg, input {
+  margin: 0 auto 10px;
+  display: block;
+}
