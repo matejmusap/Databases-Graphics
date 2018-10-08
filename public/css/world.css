@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+}
+
+svg, select {
+    margin: 0 auto;
+    display: block;
+    background-color: aquamarine;
+  }
+  
+  path {
+    stroke: #ccc;
+    stroke-width: 0.25px;
+  }
+
+a {
+  color: springgreen;
+  background-color: firebrick;
+}

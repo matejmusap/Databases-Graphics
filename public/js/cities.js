@@ -1,6 +1,6 @@
 d3.queue()
-    .defer(d3.json, "./databases/other/countries.json")
-    .defer(d3.csv, "./databases/other/simplemaps-worldcities-basic.csv", function(row) {
+    .defer(d3.json, "./databases/other/cities/countries.json")
+    .defer(d3.csv, "./databases/other/cities/simplemaps-worldcities-basic.csv", function(row) {
         return {
             cityName: row.city,
             countryCode: row.iso2,

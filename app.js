@@ -44,6 +44,14 @@ app.get("/emmisions", function(req, res){
     res.sendFile(__dirname + "/views/emmisions.html");
 });
 
+app.get("/world", function(req, res){
+    res.sendFile(__dirname + "/views/world.html");
+});
+
+app.get("/senators", function(req, res){
+    res.sendFile(__dirname + "/views/senators.html");
+});
+
 app.listen(port, function() {
     console.log("Server has started at " + port);
 });

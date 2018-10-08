@@ -1,9 +1,9 @@
 d3.queue()
-    .defer(d3.csv, "./databases/other/co2/API_EN.ATM.CO2E.KT_DS2_en_csv_v2.csv", formatter)
-    .defer(d3.csv, "./databases/other/methane/API_EN.ATM.METH.KT.CE_DS2_en_csv_v2.csv", formatter)
-    .defer(d3.csv, "./databases/other/renewable/API_EG.FEC.RNEW.ZS_DS2_en_csv_v2.csv", formatter)
-    .defer(d3.csv, "./databases/other/population/API_SP.POP.TOTL_DS2_en_csv_v2.csv", formatter)
-    .defer(d3.csv, "./databases/other/urban_population/API_SP.URB.TOTL_DS2_en_csv_v2.csv", formatter)
+    .defer(d3.csv, "./databases/other/emmisions/co2/API_EN.ATM.CO2E.KT_DS2_en_csv_v2.csv", formatter)
+    .defer(d3.csv, "./databases/other/emmisions/methane/API_EN.ATM.METH.KT.CE_DS2_en_csv_v2.csv", formatter)
+    .defer(d3.csv, "./databases/other/emmisions/renewable/API_EG.FEC.RNEW.ZS_DS2_en_csv_v2.csv", formatter)
+    .defer(d3.csv, "./databases/other/emmisions/population/API_SP.POP.TOTL_DS2_en_csv_v2.csv", formatter)
+    .defer(d3.csv, "./databases/other/emmisions/urban_population/API_SP.URB.TOTL_DS2_en_csv_v2.csv", formatter)
     .awaitAll(function(error, data) {
         if(error) throw error;
 
