@@ -52,6 +52,10 @@ app.get("/senators", function(req, res){
     res.sendFile(__dirname + "/views/senators.html");
 });
 
+app.get("/review", function(req, res){
+    res.sendFile(__dirname + "/views/review.html");
+});
+
 app.listen(port, function() {
     console.log("Server has started at " + port);
 });

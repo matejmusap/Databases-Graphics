@@ -4,7 +4,14 @@ Graphic view of different databases!
 Use d3 library
 
 #DATA
-1.Birth data per capita in 2011
-2.Birth data per month per year
-3.Births per country per year
-
+Births per capita 2011
+Number of Births per month per year in the world
+Number of Births per year
+Median age
+Births per continent
+Births per month
+Cities of the world
+Emmisions (kT per person)
+Statistics on world map
+Senators
+Review co2 emission
